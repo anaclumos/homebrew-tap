@@ -7,8 +7,8 @@ cask "anaclast" do
   desc "Keyboard layer, window tiling, launcher and clipboard history"
   homepage "https://github.com/anaclumos/homebrew-tap"
 
-  depends_on macos: :golden_gate
   depends_on formula: "media-control"
+  depends_on macos: :golden_gate
 
   app "Anaclast.app"
 end

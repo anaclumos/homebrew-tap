@@ -1,6 +1,6 @@
 cask "anaclast" do
-  version "0.3.565"
-  sha256 "bfc5a82222e0ac1069e6299cb81b60ee02a566ed638d7193ef53c8c9033d3db2"
+  version "0.3.566"
+  sha256 "5064039ebd71530564eed5a81898605d9b8631816e6b187d36f74b18c8365615"
 
   url "https://github.com/anaclumos/homebrew-tap/releases/download/anaclast-#{version}/Anaclast-#{version}.zip"
   name "Anaclast"

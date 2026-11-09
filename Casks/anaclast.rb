@@ -1,6 +1,6 @@
 cask "anaclast" do
-  version "0.3.504"
-  sha256 "7deddeaf36e16d18cbbd1d7f3a65366459f5a6f7c007c113873040b25c0fc1f8"
+  version "0.3.526"
+  sha256 "11530ece464244271e85df3d7a5149fe0c1d245cc1412191f635bf03d13d84e7"
 
   url "https://github.com/anaclumos/homebrew-tap/releases/download/anaclast-#{version}/Anaclast-#{version}.zip"
   name "Anaclast"
@@ -11,4 +11,5 @@ cask "anaclast" do
   depends_on macos: :golden_gate
 
   app "Anaclast.app"
+  binary "#{appdir}/Anaclast.app/Contents/Helpers/anaclast"
 end
